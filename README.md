@@ -26,7 +26,7 @@ This is the line that makes the kernel TLS enabled.
 
 ### 4. testing
 1. run the compose file:  
-`docker-compose -f docker-compose.yaml --compatibility up --build`  
+`docker-compose --compatibility up --build`  
 please note, `--compatibility` is for applying limits in this case
 2. get the ip of current machine:  
    `ip a`
