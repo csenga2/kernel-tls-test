@@ -110,3 +110,8 @@ Error Set:
 Based on these  
 **the throughput increased with: ~35/63/50%**  (10M/1M/512kb)  
 **the mean latency decreased with: ~22/42/32%** (10M/1M/512kb)
+
+#### Test machine spec  
+i7-8750H  
+Ubuntu 22.04LTS  
+Docker 20.10.22  
