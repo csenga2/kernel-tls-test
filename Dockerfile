@@ -28,5 +28,4 @@ RUN fallocate -l 1M /etc/nginx/data/1M.html
 RUN fallocate -l 512kb /etc/nginx/data/512kb.html
 RUN fallocate -l 10kb /etc/nginx/data/10kb.html
 
-STOPSIGNAL SIGTERM
 CMD ["nginx", "-g", "daemon off;"]
